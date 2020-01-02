@@ -1,0 +1,32 @@
+{
+  "name": "kartenspiel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarrows/kartenspiel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarrows/kartenspiel/issues"
+  },
+  "homepage": "https://github.com/tarrows/kartenspiel#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.0",
+    "typescript": "^3.7.4"
+  }
+}
